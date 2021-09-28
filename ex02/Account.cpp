@@ -119,7 +119,7 @@ void	Account::_displayTimestamp(void)
 	time(&timestamp);
 	strftime(buff, sizeof(buff), "%Y%m%d_%H%M%S", localtime(&timestamp));
 
-	std::cout << "[" << buff << "]";
+	std::cout << "[" << buff << "] ";
 }
 
 
