@@ -1,4 +1,4 @@
-#include "megaphone.hpp"
+#include "megaphone.h"
 
 void	megaphone(int argc, char *argv[])
 {

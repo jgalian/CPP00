@@ -14,7 +14,7 @@ $(NAME): $(SRCS)
 	$(CC) $(OBJ_PATH)/* -o $@
 
 clean:
-	rm -r $(OBJ_PATH)
+	rm -rf $(OBJ_PATH)
 
 fclean: clean
 	rm -f $(NAME)
